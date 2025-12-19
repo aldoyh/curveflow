@@ -1,0 +1,558 @@
+# Arabic translation for Curveflow theme
+msgid ""
+msgstr ""
+"Project-Id-Version: Curveflow\n"
+"POT-Creation-Date: 2022-08-17 11:28+0200\n"
+"PO-Revision-Date: 2025-12-19 23:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Manual\n"
+
+#: comments.php:7
+msgid "No Responses"
+msgstr "لا توجد ردود"
+
+#: comments.php:7
+msgid "1 Response"
+msgstr "رد واحد"
+
+#: comments.php:7
+msgid "% Responses"
+msgstr "% ردود"
+
+#: comments.php:10
+msgid "Comments"
+msgstr "التعليقات"
+
+#: comments.php:11
+msgid "Pingbacks"
+msgstr "الإشارات المرجعية"
+
+#: footer.php:65
+msgid "Y"
+msgstr "Y"
+
+#: footer.php:65
+msgid "All Rights Reserved."
+msgstr "جميع الحقوق محفوظة."
+
+#: footer.php:71
+msgid "Powered by"
+msgstr "مدعوم بواسطة"
+
+#: footer.php:71
+msgid "https://wordpress.org"
+msgstr "https://ar.wordpress.org"
+
+#: footer.php:71
+msgid "Theme by"
+msgstr "القالب من تطوير"
+
+#: functions.php:86
+msgid "Mobile"
+msgstr "الجوال"
+
+#: functions.php:87 functions/theme-options.php:52
+msgid "Header"
+msgstr "الرأس"
+
+#: functions.php:181
+msgid "Primary"
+msgstr "الأساسي"
+
+#: functions.php:181
+msgid "Normal full width sidebar"
+msgstr "الشريط الجانبي بالعرض الكامل"
+
+#: functions.php:183 functions/theme-options.php:299
+msgid "Footer Ads"
+msgstr "إعلانات التذييل"
+
+#: functions.php:183
+msgid "Footer ads area"
+msgstr "منطقة إعلانات التذييل"
+
+#: functions.php:185
+msgid "Frontpage Top 1"
+msgstr "الصفحة الرئيسية أعلى 1"
+
+#: functions.php:185 functions.php:186 functions.php:187 functions.php:188
+msgid "Frontpage area"
+msgstr "منطقة الصفحة الرئيسية"
+
+#: functions.php:186
+msgid "Frontpage Top 2"
+msgstr "الصفحة الرئيسية أعلى 2"
+
+#: functions.php:187
+msgid "Frontpage Bottom 1"
+msgstr "الصفحة الرئيسية أسفل 1"
+
+#: functions.php:188
+msgid "Frontpage Bottom 2"
+msgstr "الصفحة الرئيسية أسفل 2"
+
+#: functions.php:190
+msgid "Footer 1"
+msgstr "التذييل 1"
+
+#: functions.php:190 functions.php:191 functions.php:192 functions.php:193
+msgid "Widgetized footer"
+msgstr "تذييل مُجزأ"
+
+#: functions.php:191
+msgid "Footer 2"
+msgstr "التذييل 2"
+
+#: functions.php:192
+msgid "Footer 3"
+msgstr "التذييل 3"
+
+#: functions.php:193
+msgid "Footer 4"
+msgstr "التذييل 4"
+
+#: functions.php:684
+msgid "Alx Extensions"
+msgstr "ملحقات Alx"
+
+#: functions.php:688
+msgid "Meta Box"
+msgstr "صندوق البيانات الوصفية"
+
+#: functions.php:692
+msgid "Regenerate Thumbnails"
+msgstr "إعادة إنشاء الصور المصغرة"
+
+#: functions.php:696
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: header.php:19
+msgid "Skip to content"
+msgstr "تخطى إلى المحتوى"
+
+#: inc/page-title.php:7
+msgid "Category"
+msgstr "التصنيف"
+
+#: inc/page-title.php:10
+msgid "Daily Archives"
+msgstr "أرشيف يومي"
+
+#: inc/page-title.php:13
+msgid "Monthly Archives"
+msgstr "أرشيف شهري"
+
+#: inc/page-title.php:16
+msgid "Yearly Archives"
+msgstr "أرشيف سنوي"
+
+#: inc/page-title.php:19
+msgid "Author"
+msgstr "الكاتب"
+
+#: inc/page-title.php:22
+msgid "Search results for"
+msgstr "نتائج البحث عن"
+
+#: inc/page-title.php:29
+msgid "Not Found"
+msgstr "غير موجود"
+
+#: inc/post-nav.php:4
+msgid "Previous Post"
+msgstr "المقال السابق"
+
+#: inc/post-nav.php:5
+msgid "Next Post"
+msgstr "المقال التالي"
+
+#: searchform.php:3
+msgid "To search type and hit enter"
+msgstr "للبحث اكتب واضغط على إدخال"
+
+#: single.php:32
+msgid "Post navigation"
+msgstr "التنقل بين المقالات"
+
+#: 404.php:7
+msgid "Sorry, nothing found!"
+msgstr "عذراً، لم يتم العثور على شيء!"
+
+#: comments.php:15
+msgid "Comment navigation"
+msgstr "التنقل بين التعليقات"
+
+#: comments.php:16
+msgid "Older Comments"
+msgstr "التعليقات القديمة"
+
+#: comments.php:17
+msgid "Newer Comments"
+msgstr "التعليقات الأحدث"
+
+#: comments.php:26
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: functions/meta-boxes.php:18
+msgid "Inherit from global"
+msgstr "الوراثة من الإعدادات العامة"
+
+#: functions/meta-boxes.php:19
+msgid "2 columns, sidebar on right"
+msgstr "عمودان، الشريط الجانبي على اليمين"
+
+#: functions/meta-boxes.php:20
+msgid "2 columns, sidebar on left"
+msgstr "عمودان، الشريط الجانبي على اليسار"
+
+#: functions/meta-boxes.php:21
+msgid "1 column, no sidebars"
+msgstr "عمود واحد، بدون أشرطة جانبية"
+
+#: functions/meta-boxes.php:36
+msgid "Primary Sidebar"
+msgstr "الشريط الجانبي الأساسي"
+
+#: functions/theme-options.php:37
+msgid "General"
+msgstr "عام"
+
+#: functions/theme-options.php:44 functions/meta-boxes.php:14
+msgid "Layout"
+msgstr "التخطيط"
+
+#: functions/theme-options.php:54
+msgid "Footer"
+msgstr "التذييل"
+
+#: functions/theme-options.php:57
+msgid "Blog"
+msgstr "المدونة"
+
+#: functions/theme-options.php:60
+msgid "Sidebars"
+msgstr "الأشرطة الجانبية"
+
+#: functions/theme-options.php:67
+msgid "Site Layout"
+msgstr "تخطيط الموقع"
+
+#: functions/theme-options.php:73
+msgid "Full Width"
+msgstr "العرض الكامل"
+
+#: functions/theme-options.php:74
+msgid "Boxed"
+msgstr "محصور"
+
+#: functions/theme-options.php:84
+msgid "Recommended Plugins"
+msgstr "الإضافات الموصى بها"
+
+#: functions/theme-options.php:85
+msgid "Enable or disable the recommended plugins notice."
+msgstr "تفعيل أو تعطيل إشعار الإضافات الموصى بها."
+
+#: functions/theme-options.php:100
+msgid "Copyright"
+msgstr "حقوق النشر"
+
+#: functions/theme-options.php:101
+msgid "Custom footer copyright text"
+msgstr "نص حقوق النشر المخصص في التذييل"
+
+#: functions/theme-options.php:109
+msgid "Credit"
+msgstr "الإسناد"
+
+#: functions/theme-options.php:110
+msgid "Footer credit text"
+msgstr "نص الإسناد في التذييل"
+
+#: functions/theme-options.php:122
+msgid "Excerpt Length"
+msgstr "طول المقتطف"
+
+#: functions/theme-options.php:123
+msgid "Max number of words"
+msgstr "الحد الأقصى لعدد الكلمات"
+
+#: functions/theme-options.php:132
+msgid "Featured Posts Include"
+msgstr "تضمين المقالات المميزة"
+
+#: functions/theme-options.php:133
+msgid "Exclude featured posts from the content below."
+msgstr "استبعاد المقالات المميزة من المحتوى أدناه."
+
+#: functions/theme-options.php:145 single.php:47
+msgid "Related Posts"
+msgstr "المقالات ذات الصلة"
+
+#: functions/theme-options.php:151
+msgid "Disable"
+msgstr "تعطيل"
+
+#: functions/theme-options.php:152
+msgid "Related by Categories"
+msgstr "ذات صلة بالتصنيفات"
+
+#: functions/theme-options.php:153
+msgid "Related by Tags"
+msgstr "ذات صلة بالوسوم"
+
+#: functions/theme-options.php:163
+msgid "Comment Count"
+msgstr "عدد التعليقات"
+
+#: functions/theme-options.php:164
+msgid "Show comment count in post meta."
+msgstr "إظهار عدد التعليقات في بيانات المقال الوصفية."
+
+#: functions/theme-options.php:176
+msgid "Author Avatar"
+msgstr "صورة الكاتب الرمزية"
+
+#: functions/theme-options.php:177
+msgid "Show author avatar in post meta."
+msgstr "إظهار صورة الكاتب الرمزية في بيانات المقال الوصفية."
+
+#: functions/theme-options.php:189
+msgid "Post Navigation"
+msgstr "التنقل بين المقالات"
+
+#: functions/theme-options.php:195 functions/meta-boxes.php:32
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: functions/theme-options.php:196
+msgid "Below content"
+msgstr "أسفل المحتوى"
+
+#: functions/theme-options.php:206
+msgid "Header Search"
+msgstr "البحث في الرأس"
+
+#: functions/theme-options.php:207
+msgid "Header search button"
+msgstr "زر البحث في الرأس"
+
+#: functions/theme-options.php:219
+msgid "Header Social Links"
+msgstr "روابط التواصل الاجتماعي في الرأس"
+
+#: functions/theme-options.php:220
+msgid "Social links in header"
+msgstr "روابط التواصل الاجتماعي في الرأس"
+
+#: functions/theme-options.php:232
+msgid "Footer Social Links"
+msgstr "روابط التواصل الاجتماعي في التذييل"
+
+#: functions/theme-options.php:233
+msgid "Social links in footer"
+msgstr "روابط التواصل الاجتماعي في التذييل"
+
+#: functions/theme-options.php:245
+msgid "Social Links"
+msgstr "روابط التواصل الاجتماعي"
+
+#: functions/theme-options.php:258
+msgid "Title Attribute"
+msgstr "خاصية العنوان"
+
+#: functions/theme-options.php:263
+msgid "Link URL"
+msgstr "رابط URL"
+
+#: functions/theme-options.php:268
+msgid "Open in new window"
+msgstr "فتح في نافذة جديدة"
+
+#: functions/theme-options.php:273
+msgid "Icon"
+msgstr "الأيقونة"
+
+#: functions/theme-options.php:278
+msgid "Icon Color"
+msgstr "لون الأيقونة"
+
+#: functions/theme-options.php:290
+msgid "Footer Widgets"
+msgstr "عناصر التذييل"
+
+#: functions/theme-options.php:291
+msgid "Number of footer widget areas"
+msgstr "عدد مناطق عناصر التذييل"
+
+#: functions/theme-options.php:308
+msgid "Footer Logo"
+msgstr "شعار التذييل"
+
+#: functions/theme-options.php:309
+msgid "Upload a logo for the footer"
+msgstr "رفع شعار للتذييل"
+
+#: functions/theme-options.php:319
+msgid "Blog Heading"
+msgstr "عنوان المدونة"
+
+#: functions/theme-options.php:320
+msgid "Custom blog heading"
+msgstr "عنوان مدونة مخصص"
+
+#: functions/theme-options.php:328
+msgid "Blog Subheading"
+msgstr "العنوان الفرعي للمدونة"
+
+#: functions/theme-options.php:329
+msgid "Custom blog subheading"
+msgstr "عنوان فرعي مخصص للمدونة"
+
+#: functions/theme-options.php:337
+msgid "Featured Category"
+msgstr "التصنيف المميز"
+
+#: functions/theme-options.php:346
+msgid "Featured Posts Count"
+msgstr "عدد المقالات المميزة"
+
+#: functions/theme-options.php:347
+msgid "Number of posts to show"
+msgstr "عدد المقالات المراد عرضها"
+
+#: functions/theme-options.php:356
+msgid "Frontpage Widgets Top"
+msgstr "عناصر الصفحة الرئيسية العلوية"
+
+#: functions/theme-options.php:357
+msgid "Enable frontpage widgets - top"
+msgstr "تفعيل عناصر الصفحة الرئيسية - أعلى"
+
+#: functions/theme-options.php:369
+msgid "Frontpage Widgets Bottom"
+msgstr "عناصر الصفحة الرئيسية السفلية"
+
+#: functions/theme-options.php:370
+msgid "Enable frontpage widgets - bottom"
+msgstr "تفعيل عناصر الصفحة الرئيسية - أسفل"
+
+#: functions/theme-options.php:382
+msgid "Global Layout"
+msgstr "التخطيط العام"
+
+#: functions/theme-options.php:383
+msgid "Default layout for all pages"
+msgstr "التخطيط الافتراضي لجميع الصفحات"
+
+#: functions/theme-options.php:389
+msgid "Inherit"
+msgstr "وراثة"
+
+#: functions/theme-options.php:390
+msgid "2 columns, sidebar right"
+msgstr "عمودان، الشريط الجانبي على اليمين"
+
+#: functions/theme-options.php:391
+msgid "2 columns, sidebar left"
+msgstr "عمودان، الشريط الجانبي على اليسار"
+
+#: functions/theme-options.php:392
+msgid "1 column, no sidebar"
+msgstr "عمود واحد، بدون شريط جانبي"
+
+#: functions/theme-options.php:402
+msgid "Home"
+msgstr "الرئيسية"
+
+#: functions/theme-options.php:403
+msgid "Layout for home page"
+msgstr "تخطيط الصفحة الرئيسية"
+
+#: functions/theme-options.php:414
+msgid "Single"
+msgstr "المقال الفردي"
+
+#: functions/theme-options.php:415
+msgid "Layout for single posts"
+msgstr "تخطيط المقالات الفردية"
+
+#: functions/theme-options.php:426
+msgid "Archive"
+msgstr "الأرشيف"
+
+#: functions/theme-options.php:427
+msgid "Layout for archives"
+msgstr "تخطيط الأرشيف"
+
+#: functions/theme-options.php:438
+msgid "Archive - Category"
+msgstr "الأرشيف - التصنيف"
+
+#: functions/theme-options.php:439
+msgid "Layout for category archives"
+msgstr "تخطيط أرشيف التصنيفات"
+
+#: functions/theme-options.php:450
+msgid "Search"
+msgstr "البحث"
+
+#: functions/theme-options.php:451
+msgid "Layout for search results"
+msgstr "تخطيط نتائج البحث"
+
+#: functions/theme-options.php:462
+msgid "Page"
+msgstr "الصفحة"
+
+#: functions/theme-options.php:463
+msgid "Layout for pages"
+msgstr "تخطيط الصفحات"
+
+#: functions/theme-options.php:474
+msgid "404"
+msgstr "404"
+
+#: functions/theme-options.php:475
+msgid "Layout for 404 error page"
+msgstr "تخطيط صفحة الخطأ 404"
+
+#: functions/theme-options.php:486
+msgid "Profile Image"
+msgstr "صورة الملف الشخصي"
+
+#: functions/theme-options.php:487
+msgid "Upload a profile image"
+msgstr "رفع صورة للملف الشخصي"
+
+#: functions/theme-options.php:497
+msgid "Profile Name"
+msgstr "اسم الملف الشخصي"
+
+#: functions/theme-options.php:498
+msgid "Enter your name"
+msgstr "أدخل اسمك"
+
+#: functions/theme-options.php:506
+msgid "Profile Description"
+msgstr "وصف الملف الشخصي"
+
+#: functions/theme-options.php:507
+msgid "Enter a profile description"
+msgstr "أدخل وصفاً للملف الشخصي"
+
+#: functions/theme-options.php:518
+msgid "Mobile Sidebar"
+msgstr "الشريط الجانبي للجوال"
+
+#: functions/theme-options.php:519
+msgid "Hide sidebar on mobile devices"
+msgstr "إخفاء الشريط الجانبي على الأجهزة المحمولة"
