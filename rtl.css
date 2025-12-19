@@ -7,6 +7,7 @@ Description: RTL (Right-to-Left) stylesheet for Arabic and other RTL languages
 body {
 	direction: rtl;
 	unicode-bidi: embed;
+	font-family: "Tajawal", Arial, sans-serif;
 }
 
 /* Float adjustments */
