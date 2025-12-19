@@ -218,12 +218,15 @@ add_action( 'wp_enqueue_scripts', 'curveflow_scripts' );
 if ( ! function_exists( 'curveflow_styles' ) ) {
 	
 	function curveflow_styles() {
-		// Enqueue Tajawal font from Google Fonts
+		// Enqueue Tajawal font from Google Fonts (optimized for Arabic)
 		wp_enqueue_style( 'curveflow-tajawal-font', 'https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap', array(), null );
 		
 		wp_enqueue_style( 'curveflow-style', get_stylesheet_uri() );
 		wp_enqueue_style( 'curveflow-responsive', get_template_directory_uri().'/responsive.css' );
 		wp_enqueue_style( 'curveflow-font-awesome', get_template_directory_uri().'/fonts/all.min.css' );
+		
+		// WordPress automatically loads rtl.css when the site language is RTL
+		// The rtl.css file in the theme root will be automatically enqueued for RTL languages
 	}
 	
 }

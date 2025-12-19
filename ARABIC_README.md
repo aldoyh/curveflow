@@ -68,12 +68,17 @@ This is a complete Arabic localization of the Curveflow WordPress theme with ful
 القالب يدعم الآن:
 - اتجاه RTL تلقائي عند تفعيل اللغة العربية
 - خط تجول محمل من Google Fonts
-- ملف `rtl.css` يتم تحميله تلقائياً
+- ملف `rtl.css` يتم تحميله تلقائياً من قبل WordPress عند استخدام لغة RTL
 
 The theme now supports:
 - Automatic RTL direction when Arabic language is activated
 - Tajawal font loaded from Google Fonts
-- `rtl.css` file automatically loaded
+- `rtl.css` file automatically loaded by WordPress when using RTL language
+
+**ملاحظة هامة | Important Note:**  
+WordPress يقوم تلقائياً بتحميل ملف `rtl.css` الموجود في مجلد القالب الرئيسي عندما يكون الموقع يستخدم لغة RTL (مثل العربية). لا حاجة لتحميله يدوياً.
+
+WordPress automatically loads the `rtl.css` file from the theme root when the site is using an RTL language (like Arabic). No manual enqueuing is needed.
 
 ## المميزات | Features
 
