@@ -220,7 +220,7 @@ if ( ! function_exists( 'curveflow_styles' ) ) {
 	function curveflow_styles() {
 		// Enqueue Tajawal font from Google Fonts (optimized for Arabic) when using RTL language
 		if ( is_rtl() ) {
-			wp_enqueue_style( 'curveflow-tajawal-font', 'https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap', array(), null );
+			wp_enqueue_style( 'curveflow-tajawal-font', 'https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap', array(), '1.0.7' );
 		}
 		
 		wp_enqueue_style( 'curveflow-style', get_stylesheet_uri() );
@@ -656,6 +656,12 @@ if ( ! function_exists( 'curveflow_html_js_class' ) ) {
 
 	function curveflow_html_js_class () {
 		echo '<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>'. "\n";
+		
+		// Preconnect to Google Fonts for better performance when using RTL languages
+		if ( is_rtl() ) {
+			echo '<link rel="preconnect" href="https://fonts.googleapis.com">' . "\n";
+			echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
+		}
 	}
 	
 }

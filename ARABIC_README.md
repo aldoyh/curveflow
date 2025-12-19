@@ -18,12 +18,14 @@ This is a complete Arabic localization of the Curveflow WordPress theme with ful
 - ✅ Support for Arabic plural forms (6 forms)
 
 ### 2. خط تجول | Tajawal Font
-- ✅ استبدال خط Titillium بخط تجول العربي
-- ✅ تحميل الخط من Google Fonts
+- ✅ تحميل خط تجول من Google Fonts (فقط للغات RTL)
+- ✅ إضافة خط تجول في ملف rtl.css
+- ✅ الحفاظ على خط Titillium الأصلي للمواقع غير RTL
 - ✅ دعم أوزان متعددة: خفيف (300)، عادي (400)، متوسط (500)، ثقيل (700)
 
-- ✅ Replaced Titillium font with Tajawal Arabic font
-- ✅ Loading font from Google Fonts
+- ✅ Loading Tajawal font from Google Fonts (only for RTL languages)
+- ✅ Added Tajawal font in rtl.css file
+- ✅ Preserved original Titillium font for non-RTL sites
 - ✅ Multiple weights support: Light (300), Regular (400), Medium (500), Bold (700)
 
 ### 3. دعم RTL | RTL Support
@@ -43,9 +45,13 @@ This is a complete Arabic localization of the Curveflow WordPress theme with ful
 
 1. **languages/ar.po** - ملف الترجمة العربية | Arabic translation file
 2. **languages/ar.mo** - ملف الترجمة المترجم | Compiled translation file
-3. **rtl.css** - ملف الأنماط RTL | RTL stylesheet
-4. **style.css** - تحديث الخط الأساسي | Updated base font
-5. **functions.php** - إضافة دعم خط تجول | Added Tajawal font support
+3. **rtl.css** - ملف الأنماط RTL | RTL stylesheet with Tajawal font
+4. **functions.php** - إضافة دعم خط تجول المشروط | Added conditional Tajawal font support
+5. **ARABIC_README.md** - توثيق شامل | Comprehensive documentation
+
+**ملاحظة:** تم الحفاظ على `style.css` بدون تغيير للحفاظ على التوافق مع المواقع غير RTL.
+
+**Note:** `style.css` was intentionally left unchanged to maintain compatibility with non-RTL sites.
 
 ## كيفية الاستخدام | How to Use
 
