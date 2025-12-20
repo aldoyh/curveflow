@@ -7,22 +7,13 @@ Description: RTL (Right-to-Left) stylesheet for Arabic and other RTL languages
 body {
 	direction: rtl;
 	unicode-bidi: embed;
-	font-family: "Tajawal", Arial, sans-serif !important;
 }
 
-/* Ensure Tajawal font is used for all text elements */
-body,
-h1, h2, h3, h4, h5, h6,
-p, a, li, span, div,
-input, textarea, button, select, label,
-.site-title,
-.site-description,
-.nav-menu,
-.widget,
-.post-title,
-.entry,
-.comment,
-.footer {
+/* Ensure Tajawal font is used for all text elements with high priority */
+html[lang="ar"] body,
+html[lang="ar"] body *,
+html[dir="rtl"] body,
+html[dir="rtl"] body * {
 	font-family: "Tajawal", Arial, sans-serif !important;
 }
 
