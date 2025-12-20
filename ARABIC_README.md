@@ -19,12 +19,14 @@ This is a complete Arabic localization of the Curveflow WordPress theme with ful
 
 ### 2. خط تجول | Tajawal Font
 - ✅ تحميل خط تجول من Google Fonts (فقط للغات RTL)
-- ✅ إضافة خط تجول في ملف rtl.css
+- ✅ إضافة خط تجول في ملف rtl.css مع `!important` لضمان الأولوية
+- ✅ تطبيق الخط على جميع العناصر النصية (h1-h6, p, a, div, etc.)
 - ✅ الحفاظ على خط Titillium الأصلي للمواقع غير RTL
 - ✅ دعم أوزان متعددة: خفيف (300)، عادي (400)، متوسط (500)، ثقيل (700)
 
 - ✅ Loading Tajawal font from Google Fonts (only for RTL languages)
-- ✅ Added Tajawal font in rtl.css file
+- ✅ Added Tajawal font in rtl.css with `!important` for proper priority
+- ✅ Applied font to all text elements (h1-h6, p, a, div, etc.)
 - ✅ Preserved original Titillium font for non-RTL sites
 - ✅ Multiple weights support: Light (300), Regular (400), Medium (500), Bold (700)
 
@@ -85,6 +87,26 @@ The theme now supports:
 WordPress يقوم تلقائياً بتحميل ملف `rtl.css` الموجود في مجلد القالب الرئيسي عندما يكون الموقع يستخدم لغة RTL (مثل العربية). لا حاجة لتحميله يدوياً.
 
 WordPress automatically loads the `rtl.css` file from the theme root when the site is using an RTL language (like Arabic). No manual enqueuing is needed.
+
+### التحقق من خط تجول | Verifying Tajawal Font
+
+للتأكد من أن خط تجول يعمل بشكل صحيح:
+1. افتح الموقع بعد تفعيل اللغة العربية
+2. انقر بزر الماوس الأيمن على أي نص عربي
+3. اختر "فحص" أو "Inspect"
+4. في لوحة الأنماط (Styles)، ابحث عن `font-family`
+5. يجب أن ترى: `font-family: "Tajawal", Arial, sans-serif !important;`
+
+To verify Tajawal font is working correctly:
+1. Open the site after activating Arabic language
+2. Right-click on any Arabic text
+3. Select "Inspect"
+4. In the Styles panel, look for `font-family`
+5. You should see: `font-family: "Tajawal", Arial, sans-serif !important;`
+
+**ملاحظة:** خط تجول يتم تحميله من Google Fonts. تأكد من أن اتصال الإنترنت يعمل ولا يوجد مانع للاتصال بـ Google Fonts.
+
+**Note:** Tajawal font is loaded from Google Fonts. Ensure internet connection is working and Google Fonts is not blocked.
 
 ## المميزات | Features
 
