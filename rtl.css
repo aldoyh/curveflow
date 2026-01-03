@@ -1,0 +1,303 @@
+/*
+Theme Name: Curveflow
+Description: RTL (Right-to-Left) stylesheet for Arabic and other RTL languages
+*/
+
+/* Base RTL adjustments */
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* Ensure Tajawal font is used for all text elements with high priority */
+html[lang="ar"] body,
+html[lang="ar"] body *,
+html[dir="rtl"] body,
+html[dir="rtl"] body * {
+	font-family: "Tajawal", Arial, sans-serif !important;
+}
+
+/* Float adjustments */
+.left,
+.alignleft {
+	float: right;
+}
+
+.right,
+.alignright {
+	float: left;
+}
+
+/* Text alignment */
+body,
+.entry table,
+.entry table td,
+.entry table th {
+	text-align: right;
+}
+
+/* Forms */
+.themeform.searchform div input {
+	padding-left: 10px;
+	padding-right: 26px;
+}
+
+.themeform.searchform div:after {
+	left: auto;
+	right: 10px;
+}
+
+/* Entry content adjustments */
+.entry blockquote {
+	padding-left: 0;
+	padding-right: 50px;
+}
+
+.entry blockquote:before {
+	left: auto;
+	right: 0;
+}
+
+.entry .wp-caption.alignleft {
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.entry .wp-caption.alignright {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+.entry ul {
+	margin: 0 30px 15px 0;
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.entry .wp-block-gallery {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.entry .wp-block-quote.is-large {
+	padding-left: 0;
+	padding-right: 50px;
+}
+
+.entry .wp-block-pullquote.alignleft {
+	margin-right: 0;
+	margin-left: 2em;
+}
+
+.entry .wp-block-pullquote.alignright {
+	margin-left: 0;
+	margin-right: 2em;
+}
+
+.entry .wp-block-pullquote blockquote {
+	padding-left: 0;
+	padding-right: 50px;
+	text-align: right;
+}
+
+.entry .wp-block-latest-comments {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.entry > .alignfull {
+	margin-left: -40px;
+	margin-right: -40px;
+}
+
+/* Layout adjustments */
+#wrapper-inner {
+	padding-left: 0;
+	padding-right: 70px;
+}
+
+.col-2cl .main-inner {
+	padding-right: 0;
+	padding-left: 300px;
+}
+
+.col-2cl .s1 {
+	margin-right: 0;
+	margin-left: -300px;
+	box-shadow: 1px 0 0 rgba(0,0,0,0.1);
+}
+
+.col-2cr .main-inner {
+	padding-left: 0;
+	padding-right: 300px;
+}
+
+.col-2cr .s1 {
+	margin-left: 0;
+	margin-right: -300px;
+	box-shadow: -1px 0 0 rgba(0,0,0,0.1);
+}
+
+/* Sidebar */
+.sidebar .pad {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Grid system */
+.grid {
+	margin-right: 0;
+	margin-left: 3.2%;
+	float: right;
+}
+
+.last {
+	clear: left;
+	margin-right: 0!important;
+	margin-left: 0!important;
+}
+
+/* Social links */
+.social-links {
+	float: left;
+}
+
+/* Image captions */
+.image-caption {
+	left: auto;
+	right: 8px;
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+.widget .gallery .gallery-caption {
+	text-align: right;
+	text-indent: 0;
+	padding-right: 10px;
+	padding-left: 0;
+	left: auto;
+	right: 2px;
+}
+
+/* Header */
+.heading i {
+	margin-right: 0;
+	margin-left: 6px;
+}
+
+/* Navigation */
+.nav-menu {
+	text-align: right;
+}
+
+.nav-menu ul {
+	text-align: right;
+}
+
+.nav-menu li {
+	float: right;
+}
+
+.nav-menu ul ul {
+	left: auto;
+	right: 0;
+}
+
+.nav-menu ul ul ul {
+	left: auto;
+	right: 100%;
+}
+
+/* Comments */
+.comment-list .children {
+	padding-left: 0;
+	padding-right: 40px;
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+/* Flow items */
+.flow-thumbnail {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.flow-icon {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.flow-meta {
+	text-align: right;
+}
+
+.flow-meta li {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.flow-meta li:first-child {
+	margin-left: 0;
+}
+
+.flow-meta li:last-child {
+	margin-right: 0;
+}
+
+/* Post navigation */
+.post-nav .nav-previous {
+	float: right;
+	text-align: right;
+}
+
+.post-nav .nav-next {
+	float: left;
+	text-align: left;
+}
+
+/* Pagination */
+.pagination {
+	text-align: center;
+}
+
+/* Footer */
+#footer-bottom {
+	text-align: center;
+}
+
+#copyright {
+	text-align: center;
+}
+
+#credit {
+	text-align: center;
+}
+
+/* Back to top button */
+#back-to-top {
+	left: 30px;
+	right: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	#wrapper-inner {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.col-2cl .main-inner,
+	.col-2cr .main-inner {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.col-2cl .s1,
+	.col-2cr .s1 {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
